@@ -1,0 +1,33 @@
+
+body {
+    font-family: "system-ui";
+    background-color: #c0e2ff;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100vh;
+    margin: 0;
+    /* overflow-y: auto; */
+  }
+
+  #title{
+
+    margin-top: 20px;
+  }
+
+  table {
+    margin-top: 20px;
+    background-color: rgb(247, 247, 247);
+    border-collapse: collapse;
+    table-layout: fixed;
+    overflow: hidden;
+    text-align: center;
+    overflow-y: scroll;
+    margin-left: 25px;
+  
+   }
+  
+   table td{
+    padding: 5px 15px 5px 15px;
+    text-align: center;
+    }
